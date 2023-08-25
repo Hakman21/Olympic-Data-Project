@@ -156,8 +156,8 @@ def gender(yeslist, nolist, now, display_after_filter_option):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"""{Fore.CYAN}
 OPTIONS:
-1) Filter By Gender
-2) Return To Previous Menu
+[1] Filter By Gender
+[2] Return To Previous Menu
 {Style.RESET_ALL}""")
     selection = input("Enter an option: ")
     if selection == "1":
@@ -186,8 +186,8 @@ def age(yeslist, nolist, now, display_after_filter_option):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"""{Fore.CYAN}
 OPTIONS:
-1) Filter By Age Range
-2) Return To Previous Menu
+[1] Filter By Age Range
+[2] Return To Previous Menu
 {Style.RESET_ALL}""")
     selection = input("Enter an option: ")
     if selection == "1":
@@ -214,8 +214,8 @@ def height(yeslist, nolist, now, display_after_filter_option):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"""{Fore.CYAN}
 OPTIONS:
-1) Filter By Height
-2) Return To Previous Menu
+[1] Filter By Height
+[2] Return To Previous Menu
 {Style.RESET_ALL}""")
     selection = input("Enter an option: ")
     if selection == "1":
@@ -243,8 +243,8 @@ def country(yeslist, nolist, now, display_after_filter_option):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"""{Fore.CYAN}
 OPTIONS:
-1) Filter By Country / NOC
-2) Return To Previous Menu
+[1] Filter By Country / NOC
+[2] Return To Previous Menu
 {Style.RESET_ALL}""")
     selection = input("Enter an option: ")
     if selection == "1":
@@ -264,8 +264,8 @@ def year(yeslist, nolist, now, display_after_filter_option):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"""{Fore.CYAN}
 OPTIONS:
-1) Filter By Year Range
-2) Return To Previous Menu
+[1] Filter By Year Range
+[2] Return To Previous Menu
 {Style.RESET_ALL}""")
     selection = input("Enter an option: ")
     if selection == "1":
@@ -292,8 +292,8 @@ def season(yeslist, nolist, now, display_after_filter_option):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"""{Fore.CYAN}
 OPTIONS:
-1) Filter By Season
-2) Return To Previous Menu
+[1] Filter By Season
+[2] Return To Previous Menu
 {Style.RESET_ALL}""")
     selection = input("Enter an option: ")
     if selection == "1":
@@ -313,8 +313,8 @@ def sport(yeslist, nolist, now, display_after_filter_option):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"""{Fore.CYAN}
 OPTIONS:
-1) Filter By Sport
-2) Return To Previous Menu
+[1] Filter By Sport
+[2] Return To Previous Menu
 {Style.RESET_ALL}""")
     selection = input("Enter an option: ")
     if selection == "1":
@@ -334,8 +334,8 @@ def medal(yeslist, nolist, now, display_after_filter_option):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"""{Fore.CYAN}    
 OPTIONS:
-1) Filter By Medal (Gold/Silver/Bronze)
-2) Return To Previous Menu
+[1] Filter By Medal (Gold/Silver/Bronze)
+[2] Return To Previous Menu
 {Style.RESET_ALL}""")
     selection = input("Enter an option: ")
     if selection == "1":
@@ -355,10 +355,10 @@ def settings(yeslist, nolist, save_missing_data_option, display_after_filter_opt
     while True:
         print(f"""{Fore.CYAN}
 OPTIONS:
-1) View Logs
-2) Save Missing Data To Seperate File
-3) Display After Filter
-4) Return To Main Menu
+[1] View Logs
+[2] Save Missing Data To Seperate File
+[3] Display After Filter
+[4] Return To Main Menu
 
 {Style.RESET_ALL}""")
         
@@ -388,17 +388,17 @@ def menu(yeslist, nolist, now, save_missing_data_option, display_after_filter_op
     while True:
         print(f"""{Fore.CYAN}
 OPTIONS:
-1) Finish
-2) Filter By Gender
-3) Filter By Age
-4) Filter By Height
-5) Filter By Country / NOC
-6) Filter By Year
-7) Filter By Season
-8) Filter By Sport
-9) Filter By Medal
-10) Settings
-11) Quit Program
+[1] Finish
+[2] Filter By Gender
+[3] Filter By Age
+[4] Filter By Height
+[5] Filter By Country / NOC
+[6] Filter By Year
+[7] Filter By Season
+[8] Filter By Sport
+[9] Filter By Medal
+[10] Settings
+[11] Quit Program
 {Style.RESET_ALL}""")
 
         selection = input("Enter An Option: ") 
