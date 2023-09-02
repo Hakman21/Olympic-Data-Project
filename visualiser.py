@@ -39,12 +39,12 @@ def menu(filename):
     while True:
         print(f"""{Fore.CYAN}
 OPTIONS:
-1) Visualise Gender
-2) Visualise Age
-3) Visualise Height
-4) ...
-5) ...
-6) Quit Program
+[1] Visualise Gender
+[2] Visualise Age
+[3] Visualise Height
+[4] ...
+[5] ...
+[6] Quit Program
 
 {Style.RESET_ALL}""")
 
